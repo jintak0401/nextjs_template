@@ -1,3 +1,4 @@
-import Tmp from "./tmp";
+import Counter1 from "./counter1"
+import Counter2 from "./counter2"
 
-export {Tmp}
+export {Counter1, Counter2};

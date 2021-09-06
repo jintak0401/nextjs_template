@@ -22,7 +22,11 @@
       "@utils": ["utils/index.ts"],
       "@utils/*": ["utils/*"],
       "@pages": ["pages/index.ts"],
-      "@pages/*": ["pages/*"]
+      "@pages/*": ["pages/*"],
+      "@modules": ["modules/index.ts"],
+      "@modules/*": ["modules/*"],
+      "@lib": ["lib/index.ts"],
+      "@lib/*": ["lib/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
