@@ -2,7 +2,7 @@ import type {NextPage} from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@styles/Home.module.scss'
-import {Counter1, Counter2} from "@components";
+import {TodosContainer, CounterContainer} from "@containers";
 
 const Home: NextPage = () => {
     return (
@@ -14,9 +14,11 @@ const Home: NextPage = () => {
             </Head>
 
             <main>
-                <Counter1/>
-                <Counter2/>
+                <CounterContainer/>
+                <div style={{height: 50}}/>
+                <TodosContainer/>
             </main>
+
             <footer className={styles.footer}>
                 <a
                     href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"

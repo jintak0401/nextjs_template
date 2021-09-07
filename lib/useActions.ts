@@ -2,7 +2,9 @@ import {AnyAction, bindActionCreators} from "redux";
 import {useDispatch} from "react-redux";
 import {useMemo} from "react";
 
-const useActions = (actions: Array<() => AnyAction>, deps: Array<any>) => {
+type actionsType = Array<(...args: Array<any>) => AnyAction>;
+
+const useActions = (actions: actionsType, deps: Array<any>): Array<any> => {
     const dispatch = useDispatch();
     return useMemo(() => {
             if (Array.isArray(actions)) {

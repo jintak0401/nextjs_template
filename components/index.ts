@@ -1,4 +1,4 @@
-import Counter1 from "./counter1"
-import Counter2 from "./counter2"
+import Counter from "@components/Counter";
+import Todos from "@components/Todos";
 
-export {Counter1, Counter2};
+export {Counter, Todos};

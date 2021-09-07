@@ -17,10 +17,10 @@
     "paths": {
       "@components": ["components/index.ts"],
       "@components/*": ["components/*"],
+      "@containers": ["containers/index.ts"],
+      "@containers/*": ["containers/*"],
       "@styles": ["styles/index.ts"],
       "@styles/*": ["styles/*"],
-      "@utils": ["utils/index.ts"],
-      "@utils/*": ["utils/*"],
       "@pages": ["pages/index.ts"],
       "@pages/*": ["pages/*"],
       "@modules": ["modules/index.ts"],
